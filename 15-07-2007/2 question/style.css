@@ -1,0 +1,19 @@
+/* Q2. Given this bloated, messy CSS. Optimize it using Grouping Selectors so it performs the exact same function in under 10 lines of code. */
+
+.login-btn, .signup-btn, .alerrt-box {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.login-btn {
+    background-color: blue;
+}
+
+.signup-btn {
+    background-color: green;
+}
+
+.alerrt-box {
+    background-color: red;
+}

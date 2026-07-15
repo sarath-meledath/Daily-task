@@ -1,0 +1,12 @@
+.ui-box {
+  width: 200px;
+  padding: 15px 25px; /* Top/Bottom, Left/Right */
+  border: 4px solid #000;
+  margin: 20px;
+}
+
+/* Q3. Copy this code into an editor and answer this question before writing anything else: If you place two of these boxes directly next to each other horizontally, how much total space do they take up altogether? */
+
+/* Ans- 
+            recure space for one box : 200 + 50 + 8 + 40 = 298
+            space for two boxs : 298 + 298 = 596 */

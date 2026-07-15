@@ -1,0 +1,37 @@
+.info-container {
+  width: 450px;
+  background-color: #f5f5f5;
+  border-left: 6px solid #555;
+  padding: 20px;
+}
+
+.info-badge {
+  display: inline-block;
+  background-color: #d9f1ff;
+  color: darkblue;
+  padding: 5px 12px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.info-container h3 {
+  margin: 0 0 10px;
+}
+
+.info-container p {
+  margin: 0;
+}
+
+.dismiss-btn {
+  display: block;
+  margin: 20px 0 0 auto;
+  padding: 10px 18px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.dismiss-btn:hover {
+  opacity: 0.8;
+}

@@ -1,0 +1,42 @@
+/* The Card Frame: Style the profile-card container so it forms a box that is 300px wide with a white background and a visible border outline.*/
+/* Card Internal Space: Ensure that none of the elements inside (photo, text, button) touch the outer border of the card. Create a clear 20px gap of internal space on all four sides. */
+
+.profile-card {
+    width: 300px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+/* The Photo Box: Style the user-photo box to be a perfect square of 80px by 80px with a gray background. Turn it into a perfect circle. */
+/* Centering the Photo: Center the circular photo horizontally inside the card, and create a 15px gap between the bottom of the photo and the top of the name heading. */
+
+.user-photo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: gray;
+    margin: 0 auto 15px;
+}
+
+/* Text Separation: Create a small 5px gap between the name and the job title, and a larger 20px gap between the job title and the button so the layout doesn't look crowded. */
+
+.job-title {
+    margin: 5px 0 20px;
+    align-items: center;
+}
+
+/* The Action Button: Target the button using its unique selector name. Make it span the full width of the card space, give it a blue background, and make the button thick and easy to click. Make it turn dark blue when hovered. */
+
+#action-connect {
+  width: 100%;
+  padding: 12px;
+  background-color: blue;
+  color: white;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#action-connect:hover {
+  background-color: darkblue;
+}

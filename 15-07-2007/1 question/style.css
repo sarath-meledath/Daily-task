@@ -1,0 +1,32 @@
+/* Q1. Give this HTML structure. style it according to the rules below without modifying the HTML. */
+
+/* All <h2> tags on the page must have a font size of 24px. */
+
+h2 {
+    font-size: 24px;
+}
+
+/* The <h2> inside the #featured-section must be colored bright purple. */
+
+#featured-section h2 {
+    color: #BF40BF;
+}
+
+/* The paragraph with the class text-content inside the standard container must be dark gray. */
+
+.container>p {
+    color: #A9A9A9;
+}
+
+/* The paragraph with the class text-content inside the #featured-section must be white. */
+
+#featured-section .text-content {
+    color: white;
+}
+
+/* Use a combinator selector to target the secondary note paragraph inside .dark-box and make it italicized. */
+
+.dark-box > p:not(.text-content) {
+  font-style: italic;
+}
+

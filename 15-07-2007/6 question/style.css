@@ -1,0 +1,20 @@
+.banner-container {
+  width: 500px;
+  background-color: #e0e0e0;
+  border-left: 5px solid darkblue;
+  padding: 16px;
+  margin: 40px auto;
+}
+
+.status-pill {
+  display: block;
+  background-color: darkblue;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 999px;
+  margin-bottom: 10px;
+}
+
+.banner-msg {
+  margin: 0;
+}
