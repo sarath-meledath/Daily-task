@@ -1,0 +1,18 @@
+.hero-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: navy;
+    color: white;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h1, p {
+    margin: 0;
+}

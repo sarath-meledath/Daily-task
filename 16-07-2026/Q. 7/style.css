@@ -1,0 +1,16 @@
+.responsive-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.responsive-nav a {
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+/* 600px works well because there's enough space for four links in one row. */
+@media (min-width: 600px) {
+  .responsive-nav {
+    flex-direction: row;
+  }
+}
